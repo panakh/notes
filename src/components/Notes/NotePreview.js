@@ -42,14 +42,5 @@ NotePreview.propTypes = {
     editing: PropTypes.bool.isRequired
 }
 
-const firstLineStyle = {
-    padding : '0 10px 0 0',
-}
-
-const restLineStyle = {
-    fontSize: 'smaller',
-    color: '#999',
-    padding : '0 5px 0 0'
-}
     
 export default NotePreview;
